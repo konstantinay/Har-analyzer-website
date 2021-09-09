@@ -1,4 +1,4 @@
 # Har-analyzer-website
-University project
+University project for core course WEB Systems and Programming.
 
 
