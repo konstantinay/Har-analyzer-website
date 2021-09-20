@@ -1,0 +1,124 @@
+
+h2 {
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: Trebuchet MS;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+.drop-zone {
+  position: relative;
+  top: 35%;
+  left: 45%;
+  transform: translate(-25%, 25%);
+  max-width: 150px;
+  height: 100px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Trebuchet MS;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #D9E8F4;
+  border: 4px dashed white;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(183, 171, 194);
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: beige;
+  background-color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.drop-zone:hover {
+  background-color: #00687D;/*#2D3970;*/
+  color: white;
+}
+
+/* Style buttons */
+.locallyDownload {
+  background-color: #00687D;
+  position: relative;
+  transform: translate(-25%, 25%);
+  border: none;
+  top: 150px;
+  left: 400px;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+/* Darker background on mouse-over */
+.locallyDownload:hover {
+  background-color: #051426;
+}
+
+
+/* Style buttons */
+.uploadToSystem {
+  position: relative;
+  transform: translate(-25%, 25%);
+  top: 105px;
+  left: 950px;
+  background-color: #00687D;
+  border: none;
+  color: white;
+  padding: 12px 40px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+/* Darker background on mouse-over */
+.uploadToSystem:hover {
+  background-color: #051426;
+}
+
+.footer1 {
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 80px;
+  top: 920px;
+  padding-top: 30px;
+  text-align: center; 
+  background: #051426;
+  color: white;  
+  position: absolute;
+}

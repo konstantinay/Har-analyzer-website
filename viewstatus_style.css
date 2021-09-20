@@ -1,0 +1,35 @@
+.myChartDiv{
+  /*position: absolute;
+  width: 800px;
+  height: 800px;
+  left: 50px;
+  top: 200px;*/
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.Charttt{
+  /*position: absolute;
+  width: 800px;
+  height: 800px;
+  left: 50px;
+  top: 200px;*/
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.footer1 {
+  left: 0;
+  bottom: 0px;
+  width: 100%; 
+  height: 160px;
+  top: 120%;;
+  text-align: center; 
+  background: #051426;
+  color: white;  
+  position: absolute;
+  overflow-y: auto;
+  padding-top: 5px;
+}
