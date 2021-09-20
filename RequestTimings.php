@@ -1,15 +1,19 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['username']))
+    {
+        header('location:Welcome.php');
+    }
+?>
+
 <!DOCTYPE HTML>
-
 <html>
-
 <head>
-
     <title>Web Project 2020</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="admin_style.css">
     <link rel="stylesheet" href="viewstatus_style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-
 </head>
 
 <body class="Starters">
