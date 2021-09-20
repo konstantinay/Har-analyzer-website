@@ -1,6 +1,6 @@
 # Har-analyzer-website
 University project for core course WEB Systems and Programming.
-Population data collection and HTTP traffic analysis system.
+**Population data collection and HTTP traffic analysis system.**
 
 The websites consists of user and admin interface. 
 
